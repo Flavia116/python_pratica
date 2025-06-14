@@ -1,0 +1,23 @@
+
+scratch.py
+
+import pywhatkit
+import datetime
+
+numero = "+5511991461011"
+
+# Número de telefone (no formato internacional)
+mensagem = (" Feliz aniversário! Espero que seu dia seja incrível! 🎂✨ ")
+
+# Pega a hora atual e agenda para 1 minuto depois
+agora = datetime.datetime.now()
+hora = agora.hour
+minuto = agora.minute+2
+
+# Se o minuto ultrapassar 59, corrige a hora
+if minuto >= 60:
+    minuto = minuto - 60
+    hora += 1
+
+# Envia a mensagem
+pywhatkit.sendwhatmsg(numero, mensagem, hora, minuto)

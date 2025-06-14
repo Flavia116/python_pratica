@@ -1,0 +1,15 @@
+
+# 🎉 Envio Automático de Mensagem de Aniversário via WhatsApp
+
+Este script Python envia automaticamente uma mensagem personalizada de feliz aniversário via **WhatsApp Web**, usando a biblioteca `pywhatkit`.
+
+---
+
+## 📦 Requisitos
+
+- Python 3.7 ou superior
+- Navegador com WhatsApp Web logado
+- Instalar a biblioteca pywhatkit:
+
+```bash
+pip install pywhatkit
