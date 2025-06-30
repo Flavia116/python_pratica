@@ -1,0 +1,21 @@
+# Calculadora de Pace 🏃‍♀️
+
+Este repositório contém um script simples em Python para calcular o *pace* (ritmo médio por quilômetro) de uma corrida.
+
+## 🔍 Como funciona
+
+O usuário informa:
+- O nome
+- A distância total percorrida (em km)
+- O tempo líquido da prova (em minutos)
+
+Com base nesses dados, o programa calcula o pace e imprime uma mensagem amigável com o resultado.
+
+## 📦 Como usar
+
+1. Instale o Python no seu computador.
+2. Baixe ou clone este repositório.
+3. No terminal, rode o script com:
+
+```bash
+python nome_do_arquivo.py
