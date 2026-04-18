@@ -1,0 +1,36 @@
+
+📊 Análise de Dados com Python – Filtros e Agrupamento
+
+Este projeto contém exercícios práticos de análise de dados utilizando Python, com foco em manipulação de dados com Pandas.
+
+🎯 Objetivo
+Praticar operações essenciais em análise de dados, como:
+
+Filtragem de dados com múltiplas condições
+Manipulação de DataFrames
+Agrupamento de dados (groupby)
+Análise de valores por categoria
+
+🧠 Tecnologias utilizadas
+Python
+Pandas
+NumPy
+
+📈 Atividades realizadas
+✔ Filtro de dados
+
+Seleção de funcionários do departamento de Vendas com salário superior a R$ 4500.
+
+✔ Manipulação de DataFrame
+
+Criação e análise de estruturas de dados com Pandas.
+
+✔ Agrupamento de dados
+
+Cálculo do total de vendas por categoria de produto.
+
+
+📌 Observações
+
+**Este projeto foi desenvolvido como parte dos meus estudos em Data Science, acompanhando aulas da Data Science Academy (DSA) e praticando os conceitos apresentados.
+
