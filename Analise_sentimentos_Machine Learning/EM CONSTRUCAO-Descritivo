@@ -1,0 +1,23 @@
+Projetos de Data Science com Python (DSA)
+
+Este repositório reúne projetos práticos desenvolvidos durante meus estudos em Python e Data Science, com foco em análise de dados e machine learning.
+
+📁 Estrutura do repositório
+💬 Análise de Sentimento (Machine Learning)
+
+Projeto de classificação de imagens em sentimentos (positivo ou negativo), utilizando técnicas de NLP e Machine Learning.
+
+01_importacao
+02_dados
+03_visualizacao
+04_modelo
+05_treinamento
+06_salvar_modelo
+
+🔹 Etapas:
+Importação e configuração do ambiente
+Preparação dos dados
+Visualização
+Construção do modelo (Rede Neural / PyTorch)
+Treinamento
+Salvamento do modelo (AJUSTAR)
