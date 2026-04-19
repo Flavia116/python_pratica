@@ -1,0 +1,33 @@
+📊 Projeto: Análise de Dados com Python
+
+Este projeto contém exercícios práticos de Análise de Dados desenvolvidos durante meus estudos em Python, acompanhando aulas da Data Science Academy.
+
+
+Objetivo
+- Praticar conceitos fundamentais de Data Science, incluindo:
+
+- Estatística descritiva
+Análise exploratória de dados (EDA)
+Visualização de dados
+Correlação entre variáveis
+Agrupamento e comparação de dados
+
+- Tecnologias utilizadas
+Python
+Pandas
+NumPy
+Matplotlib
+Seaborn
+
+- O que foi feito
+✔ Geração de dados simulados
+✔ Análise estatística (mean, std, skew, kurtosis)
+✔ Criação de gráficos:
+
+Histograma
+Boxplot
+Regressão (relação entre variáveis)
+
+✔ Análise de correlação
+✔ Agrupamento de dados com groupby
+✔ Cálculo de intervalo de confiança
