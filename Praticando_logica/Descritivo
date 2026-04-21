@@ -1,0 +1,39 @@
+Algoritmo - Purê de Batatas
+
+Este projeto apresenta um algoritmo simples em Python que simula uma decisão do dia a dia: verificar se é necessário comprar batatas para preparar uma receita.
+
+📌 Lógica do Algoritmo
+
+O programa compara:
+
+Quantidade de batatas disponíveis na geladeira
+Quantidade necessária para a receita
+Regra:
+Se faltar batata → ir ao mercado comprar
+Se não faltar → não precisa comprar
+
+- Exemplo da lógica
+geladeira = 5
+receita_pedi = 10
+
+Z = receita_pedi - geladeira
+
+if Z > 0:
+    resp = "Ir ao mercado comprar"
+
+else:
+    resp = "Não precisa comprar batatas"
+
+print(resp)
+
+Tecnologias utilizadas Python
+
+Objetivo
+
+Praticar conceitos básicos de programação:
+
+Variáveis
+Operadores matemáticos
+Estrutura condicional (if/else)
+
+Autor(a) Projeto desenvolvido por Flavia Araújo como parte dos estudos em programação.
