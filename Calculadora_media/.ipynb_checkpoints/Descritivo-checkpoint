@@ -1,0 +1,28 @@
+📚 Calculadora de Média de Notas
+
+Este projeto em Python calcula a média de um aluno com base em 4 provas (P1, P2, P3 e P4) e informa se ele foi aprovado ou reprovado.
+
+Funcionalidades
+Solicita o nome do aluno
+Recebe 4 notas
+Calcula a média
+
+Exibe o resultado final (Aprovado ou Reprovado)
+
+Regra de aprovação
+... Média maior ou igual a 7 → Aprovado
+... Média menor que 7 → Reprovado
+
+Exemplo de uso
+
+Insira seu nome: Maria
+... informe a nota 1: 8
+... informe a nota 2: 7
+... informe a nota 3: 6
+... informe a nota 4: 9
+
+Olá estudante, MARIA! Média 8. Aluno APROVADO! 🎉
+
+🛠️ Tecnologias
+
+Python
