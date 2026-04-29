@@ -1,0 +1,68 @@
+🧮 Calculadora de Índice de Massa Corporal (IMC)
+
+Este projeto em Python calcula o Índice de Massa Corporal (IMC) com base no peso e altura informados pelo usuário, retornando também a classificação de acordo com os padrões de saúde.
+
+Sobre o projeto
+O IMC (Índice de Massa Corporal) é uma medida utilizada para avaliar se uma pessoa está dentro do peso ideal em relação à sua altura.
+
+O cálculo é feito pela fórmula:
+IMC = peso / (altura²)
+
+- Funcionalidades
+Entrada de nome do usuário
+Entrada de peso e altura
+Cálculo automático do IMC
+Classificação do resultado
+Exibição formatada do resultado
+
+- Classificação do IMC
+IMC	Classificação
+Menor que 18.5	Magreza
+18.5 até 24.9	Normal
+25 até 29.9	Sobrepeso
+30 até 34.9	Obesidade Grau I
+35 até 39.9	Obesidade Grau II
+40 ou mais	Obesidade Grau III
+
+- Código
+print("\nCalculadora índice de massa corporal (IMC) >>> \n")
+
+# entrada
+nome = input("\nQUAL SEU NOME: ").upper()
+peso = float(input("\nQUAL SEU PESO: "))
+altura = float(input("\nQUAL SUA ALTURA: "))
+
+# processamento
+imc = peso / (altura ** 2)
+
+# classificação
+if imc < 18.5:
+    resultado = "Magreza 😔"
+elif imc < 25:
+    resultado = "Normal 🥳"
+elif imc < 30:
+    resultado = "Sobrepeso 🥺"
+elif imc < 35:
+    resultado = "Obesidade Grau I 😢"
+elif imc < 40:
+    resultado = "Obesidade Grau II 😭"
+else:
+    resultado = "Obesidade Grau III 😭😭"
+
+# saída
+print(f"Olá, {nome}! Seja bem-vindo! Seu IMC é: {imc:.2f} → {resultado}")
+
+▶️ Como executar
+Instale o Python
+Salve o arquivo como imc.py
+Execute no terminal:
+python imc.py
+
+⚠️ Observações
+Certifique-se de inserir valores numéricos válidos
+A altura deve ser informada em metros (ex: 1.65)
+O peso deve ser informado em quilogramas (ex: 60)
+
+Autor Flavia Araújo 
+
+Projeto desenvolvido para prática de lógica de programação em Python.
