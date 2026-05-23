@@ -1,0 +1,35 @@
+# Calculadora de Proteína
+
+Projeto simples em Python para calcular a quantidade de proteína recomendada com base no peso corporal.
+
+## Como funciona
+
+O usuário informa:
+- Nome
+- Peso corporal
+
+O programa calcula:
+
+```python
+proteina = peso * 2
+```
+
+## Exemplo
+
+Entrada:
+
+```text
+Informe seu nome: Flavia
+Digite seu peso: 70
+```
+
+Saída:
+
+```text
+Olá, FLAVIA.
+A quantidade de proteína recomendada para seu peso é: 140.0 g
+```
+
+## Tecnologias utilizadas
+
+- Python
